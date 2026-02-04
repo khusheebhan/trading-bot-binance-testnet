@@ -3,7 +3,8 @@
 ## Setup
 1. Create Binance Futures Testnet account
 2. Generate API key and secret
-3. Install dependencies:
+3. Add the API key and secret in cli.py
+4. Install dependencies:
    pip install -r requirements.txt
 
 ## Run Examples
