@@ -15,5 +15,8 @@ Limit Order:
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --qty 0.001 --price 30000
 
 ## Notes
+- This project uses Binance Futures Testnet (USDT-M)
+- On the testnet, MARKET orders may initially return `NEW` status due to asynchronous matching
+- Order status updates can be fetched after placement if needed
 - Uses Binance Futures Testnet (USDT-M)
 - Logs saved in bot.log
